@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+div.w3-card-4 {
+  width: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+select.w3-select {
+  width: 110px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+div.containerMain {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 10px;
+  margin-top: 3px;
+}
+ul {
+  width: 30%;
+  padding-top: 40px;
+  margin-top: 40px;
+}
+div.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 300px;
+}
+h2.w3-text-black {
+  font-family: "Roboto", sans-serif;
+}
+
+div.w3-container {
+  margin-top: 0px;
+}
+
+span.alerta {
+  width: 100px;
+  height: 100px;
+  color: rgb(158, 19, 19);
+  animation-name: example;
+  animation-duration: 10s;
+  font-weight: bold;
+}
+@keyframes example {
+  from {
+    color: rgb(158, 19, 19);
+  }
+  to {
+    color: crimson;
+  }
+}
+
+@media (max-width: 768px) {
+  div.w3-card-4 {
+    width: 100px;
+  }
+}
